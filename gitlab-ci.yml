@@ -8,7 +8,3 @@ pages:
     paths:
     - public
     expire_in: 1 day
-  only:
-    refs:
-    - main
-    - external_pull_requests
