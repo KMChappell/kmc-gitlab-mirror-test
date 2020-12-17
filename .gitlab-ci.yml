@@ -4,10 +4,3 @@ pages:
   stage: deploy
   script:
   - echo 'Nothing to do...'
-  artifacts:
-    paths:
-    - public
-    expire_in: 1 day
-  only:
-  - main
-  - external_pull_requests
